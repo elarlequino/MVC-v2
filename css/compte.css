@@ -1,0 +1,39 @@
+.container {
+  width: 80%;
+  margin: auto;
+  background: #ffffff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #35424a;
+}
+
+.section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 95%;
+  padding: 10px;
+  margin: 5px 0 15px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  background: #35424a;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background: #2c3e50;
+}

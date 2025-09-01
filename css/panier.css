@@ -1,0 +1,99 @@
+.conteneur_article {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 20px;
+}
+
+/* CSS Prune */
+
+.panier-contenant {
+  margin: 50px;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+.panier-liste article {
+  display: flex;
+  gap: 20px;
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+}
+
+.panier-liste img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.panier-liste h2 {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.panier-liste .Prix {
+  margin: 10px 0;
+}
+
+.valider-btn {
+  background-color: #eeeeee;
+  color: #2e2e2e;
+  border: 2px solid #57abab;
+  border-radius: 50px;
+  padding: 12px 25px;
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 5px 5px #57abab;
+  transition: all 0.2s ease-in-out;
+  margin-top: 20px;
+}
+
+.valider-btn:hover {
+  background-color: #57abab;
+  color: white;
+}
+
+.Moins,
+.Plus {
+  background-color: #ffffff;
+  border: 2px solid #2e2e2e;
+  font-weight: bold;
+  font-size: 1.5em;
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  cursor: pointer;
+  margin: 0 5px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.Quantite {
+  width: 50px;
+  text-align: center;
+  font-size: 1em;
+  border: 2px solid #2e2e2e;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  margin: 0 5px;
+}
+
+.Supprimer {
+  background-color: #ffffff;
+  font-weight: bold;
+  padding: 12px 20px;
+  font-size: 1.1em;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.panier-liste article {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
+}

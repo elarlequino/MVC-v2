@@ -1,0 +1,25 @@
+body{
+    background-image: url("../img/background4.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.Art{
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
+    background-color: white;
+    text-align: center;
+    margin: 20px;
+    border-radius: 20px;
+}
+  
+.Poster{
+    width: 35%;
+}
+  
+section{
+    text-align: center;
+}

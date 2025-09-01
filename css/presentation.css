@@ -1,0 +1,92 @@
+/* ===== BANNIÈRE ===== */
+.banner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.banner img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* ===== SECTIONS ALTERNÉES ===== */
+.image-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  background-color: #ffffff;
+  padding: 3rem;
+
+  box-shadow: 5px 5px #2b2b2b;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.image-text .text {
+  flex: 1 1 45%;
+}
+
+.image-text .text h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #000000;
+}
+
+.image-text .text p,
+.image-text .text ul li {
+  color: #2e2e2e;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.image-text ul {
+  padding-left: 1.5rem;
+}
+
+.image-text .image {
+  flex: 1 1 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-text .image img {
+  width: 100%;
+
+  object-fit: cover;
+
+  box-shadow: 5px 5px #57abab;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  body {
+    padding: 1rem;
+  }
+
+  .image-text {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .image-text .text h2 {
+    font-size: 1.5rem;
+  }
+}
+
+.logo_insta {
+  width: 32px; /* ou moins si tu veux tout mini */
+  height: auto;
+  margin: 0 8px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.logo_insta:hover {
+  transform: scale(1.1); /* petit effet sympa au survol */
+}

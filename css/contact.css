@@ -1,0 +1,139 @@
+.contact-contenant {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 80px;
+  padding: 50px 20px;
+}
+
+.contact {
+  flex: 1;
+  max-width: 500px;
+}
+
+.contact h1 {
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.contact-droite {
+  flex: 1;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.form input {
+  width: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 2px solid #2e2e2e;
+  font-size: 1em;
+  background-color: #eeeeee;
+  color: #2e2e2e;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+select:focus,
+textarea:focus {
+  border-color: #57abab;
+  outline: none;
+  box-shadow: 0 0 8px #57abab;
+}
+
+textarea {
+  min-height: 150px;
+}
+
+.rgpd {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.rgpd input[type="checkbox"] {
+  margin-right: 10px;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+label[for="rgpd"] a {
+  color: #2e2e2e;
+  text-decoration: underline;
+}
+
+.bouton {
+  background-color: #2e2e2e;
+  color: #eeeeee;
+  border: none;
+  padding: 15px 25px;
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.bouton:hover {
+  background-color: #57abab;
+}
+
+@media screen and (max-width: 900px) {
+  .contact-contenant {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
+.contact,
+.contact-droite form {
+  background-color: #eeeeee;
+  padding: 30px;
+  box-shadow: 5px 5px #2e2e2e;
+}
+
+textarea {
+  min-height: 150px;
+  background-color: #eeeeee;
+  box-shadow: 5px 5px #2e2e2e;
+}
+
+.bouton {
+  background-color: #eeeeee;
+  color: #2e2e2e;
+  border: 2px solid #57abab;
+
+  padding: 12px 25px;
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 5px 5px #57abab;
+}
+
+.bouton:hover {
+  background-color: #57abab;
+  color: #eeeeee;
+  border-color: #57abab;
+  box-shadow: 5px 5px #2e2e2e;
+}

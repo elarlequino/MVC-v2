@@ -1,0 +1,29 @@
+form {
+  text-align: left;
+}
+
+#bouton {
+  font-size: medium;
+  font-weight: bold;
+  font-family: "Minecraft";
+  margin-left: 40%;
+}
+
+label {
+  display: block;
+  width: 40%;
+  float: left;
+}
+
+textarea {
+  width: 30%;
+  height: 100px;
+}
+
+.Conteneur {
+  background-color: #e5e2e2;
+  width: 85%;
+  margin: auto;
+
+  padding: 1px;
+}

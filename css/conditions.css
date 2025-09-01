@@ -1,0 +1,68 @@
+.container {
+  padding: 0 100px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.titre {
+  background: white;
+  border: none;
+  width: 100%;
+  text-align: left;
+  padding: 18px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px #57abab;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.3s ease;
+  font-weight: bold;
+}
+
+.titre:hover {
+  background: #eeeeee;
+}
+
+.titre.active {
+  background: #eeeeee;
+}
+
+.texte {
+  background: #eeeeee;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease;
+  border-radius: 0 0 10px 10px;
+  margin-bottom: 15px;
+  padding: 0 18px;
+}
+
+.texte p {
+  margin: 15px 0;
+  font-size: 1rem;
+}
+
+a {
+  color: #57abab;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.fleche {
+  transition: transform 0.3s ease;
+  font-size: 1.2rem;
+}
+
+.fleche.rotated {
+  transform: rotate(180deg);
+}

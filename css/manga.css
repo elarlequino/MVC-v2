@@ -1,0 +1,25 @@
+body{
+  background-image: url("../img/BackgroundManga.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.ArtFav{
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  background-color: white;
+  text-align: center;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.Poster{
+  width: 100%;
+}
+
+section{
+  text-align: center;
+}

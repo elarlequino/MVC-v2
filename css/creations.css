@@ -1,0 +1,35 @@
+body {
+    background-image: url("../img/steins;gate_wallpaper.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.caroussel{
+    max-height: fit-content;
+}
+
+img{
+    max-height: 100%;
+    width: 100%;
+}
+
+.Creations{
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    background-color: white;
+    text-align: center;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.lire{
+    width: 35%;
+    margin: auto;
+}
+
+section{
+    text-align: center;
+}

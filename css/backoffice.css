@@ -1,0 +1,20 @@
+.formulaire {
+  background-color: #e5e2e2;
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+}
+
+#bouton {
+  background-color: #ffffff00;
+}
+
+/*
+div.alert{
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+
+  margin-bottom: 15px;
+}
+*/
